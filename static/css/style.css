@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+nav {
+  background-color: #3498db; /* Beautiful shade of blue */
+  color: white;
+  text-align: left; /* Align text to the left */
+  padding: 10px 20px; /* Increase padding for more space */
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 1.8em; /* Increase text size */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.main-container {
+  max-width: 800px;
+  text-align: center;
+}
+
+.description {
+  margin-bottom: 20px;
+}
+
+.container {
+  background-color: #ecf0f1; /* Light gray background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.upload-form {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+input[type="file"] {
+  border: 1px solid #bdc3c7; /* Lighter gray border */
+  padding: 10px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #2ecc71; /* Green button */
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #27ae60; /* Darker green on hover */
+}
+
+.error {
+  color: #c0392b; /* Red error message */
+  margin-top: 10px;
+}
+
+.result-container {
+  background-color: #ecf0f1; /* Light gray background */
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 20px;
+  max-width: 600px; /* Make result box smaller */
+  margin-left: auto; /* Align result box to the right */
+  margin-right: auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 15px;
+  }
+}
